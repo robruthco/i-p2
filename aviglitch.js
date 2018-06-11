@@ -9,6 +9,8 @@ const OUTPUT_DIR = path.join(FILES_DIR, 'output');
 import AviGlitch from '../lib/aviglitch';
 import Base      from '../lib/base';
 
+// stolen and modified from https://github.com/fand/node-aviglitch
+
 describe('AviGlitch', () => {
   let src, dst;
 
